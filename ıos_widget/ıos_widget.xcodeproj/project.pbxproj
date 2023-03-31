@@ -16,6 +16,8 @@
 		C3D33D1E29D5D6B800774035 /* _os_widgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D33D1D29D5D6B800774035 /* _os_widgetTests.swift */; };
 		C3D33D2829D5D6B800774035 /* _os_widgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D33D2729D5D6B800774035 /* _os_widgetUITests.swift */; };
 		C3D33D2A29D5D6B800774035 /* _os_widgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D33D2929D5D6B800774035 /* _os_widgetUITestsLaunchTests.swift */; };
+		C3D33D3729D62FE800774035 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D33D3629D62FE800774035 /* ViewController2.swift */; };
+		C3D33D3929D63B7400774035 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D33D3829D63B7400774035 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C3D33D2329D5D6B800774035 /* ıos_widgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ıos_widgetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D33D2729D5D6B800774035 /* _os_widgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _os_widgetUITests.swift; sourceTree = "<group>"; };
 		C3D33D2929D5D6B800774035 /* _os_widgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _os_widgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3D33D3629D62FE800774035 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C3D33D3829D63B7400774035 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C3D33D0F29D5D6B800774035 /* Assets.xcassets */,
 				C3D33D1129D5D6B800774035 /* LaunchScreen.storyboard */,
 				C3D33D1429D5D6B800774035 /* Info.plist */,
+				C3D33D3629D62FE800774035 /* ViewController2.swift */,
+				C3D33D3829D63B7400774035 /* ViewController3.swift */,
 			);
 			path = "ıos_widget";
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D33D3929D63B7400774035 /* ViewController3.swift in Sources */,
 				C3D33D0B29D5D6B700774035 /* ViewController.swift in Sources */,
+				C3D33D3729D62FE800774035 /* ViewController2.swift in Sources */,
 				C3D33D0729D5D6B700774035 /* AppDelegate.swift in Sources */,
 				C3D33D0929D5D6B700774035 /* SceneDelegate.swift in Sources */,
 			);
