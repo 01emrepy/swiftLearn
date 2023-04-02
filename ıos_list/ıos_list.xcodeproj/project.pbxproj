@@ -16,6 +16,7 @@
 		C3D684EC29D99852005FFBD1 /* _os_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D684EB29D99852005FFBD1 /* _os_listTests.swift */; };
 		C3D684F629D99852005FFBD1 /* _os_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D684F529D99852005FFBD1 /* _os_listUITests.swift */; };
 		C3D684F829D99852005FFBD1 /* _os_listUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D684F729D99852005FFBD1 /* _os_listUITestsLaunchTests.swift */; };
+		C3D6850529D9B0DE005FFBD1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6850429D9B0DE005FFBD1 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C3D684F129D99852005FFBD1 /* ıos_listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ıos_listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D684F529D99852005FFBD1 /* _os_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _os_listUITests.swift; sourceTree = "<group>"; };
 		C3D684F729D99852005FFBD1 /* _os_listUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _os_listUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3D6850429D9B0DE005FFBD1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C3D684DD29D99852005FFBD1 /* Assets.xcassets */,
 				C3D684DF29D99852005FFBD1 /* LaunchScreen.storyboard */,
 				C3D684E229D99852005FFBD1 /* Info.plist */,
+				C3D6850429D9B0DE005FFBD1 /* ViewController2.swift */,
 			);
 			path = "ıos_list";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D684D929D99851005FFBD1 /* ViewController.swift in Sources */,
+				C3D6850529D9B0DE005FFBD1 /* ViewController2.swift in Sources */,
 				C3D684D529D99851005FFBD1 /* AppDelegate.swift in Sources */,
 				C3D684D729D99851005FFBD1 /* SceneDelegate.swift in Sources */,
 			);
