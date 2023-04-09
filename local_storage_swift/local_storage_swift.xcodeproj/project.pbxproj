@@ -16,6 +16,7 @@
 		C396EEF629DF5FD500DA7F3C /* local_storage_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396EEF529DF5FD500DA7F3C /* local_storage_swiftTests.swift */; };
 		C396EF0029DF5FD500DA7F3C /* local_storage_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396EEFF29DF5FD500DA7F3C /* local_storage_swiftUITests.swift */; };
 		C396EF0229DF5FD500DA7F3C /* local_storage_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396EF0129DF5FD500DA7F3C /* local_storage_swiftUITestsLaunchTests.swift */; };
+		C3DE270E29E311420097C7F3 /* CoreData_Giris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3DE270C29E311420097C7F3 /* CoreData_Giris.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C396EEFB29DF5FD500DA7F3C /* local_storage_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = local_storage_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C396EEFF29DF5FD500DA7F3C /* local_storage_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_storage_swiftUITests.swift; sourceTree = "<group>"; };
 		C396EF0129DF5FD500DA7F3C /* local_storage_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_storage_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3DE270D29E311420097C7F3 /* CoreData_Giris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Giris.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		C396EEDD29DF5FD300DA7F3C /* local_storage_swift */ = {
 			isa = PBXGroup;
 			children = (
+				C3DE270C29E311420097C7F3 /* CoreData_Giris.xcdatamodeld */,
 				C396EEDE29DF5FD300DA7F3C /* AppDelegate.swift */,
 				C396EEE029DF5FD300DA7F3C /* SceneDelegate.swift */,
 				C396EEE229DF5FD300DA7F3C /* ViewController.swift */,
@@ -261,6 +264,7 @@
 				C396EEE329DF5FD300DA7F3C /* ViewController.swift in Sources */,
 				C396EEDF29DF5FD300DA7F3C /* AppDelegate.swift in Sources */,
 				C396EEE129DF5FD300DA7F3C /* SceneDelegate.swift in Sources */,
+				C3DE270E29E311420097C7F3 /* CoreData_Giris.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +606,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3DE270C29E311420097C7F3 /* CoreData_Giris.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3DE270D29E311420097C7F3 /* CoreData_Giris.xcdatamodel */,
+			);
+			currentVersion = C3DE270D29E311420097C7F3 /* CoreData_Giris.xcdatamodel */;
+			path = CoreData_Giris.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C396EED329DF5FD300DA7F3C /* Project object */;
 }
